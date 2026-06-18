@@ -11,7 +11,9 @@ Before doing any of this you are going to want to ensure that you have a docker 
 
 
 Running the Celery worker to process the task:
+
 ```uv run celery -A tasks worker --loglevel=info```
+
 Running the Celery task:
 
 ```uv run main.py```
