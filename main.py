@@ -1,3 +1,7 @@
+import celery
+import os
+
+
 def main():
     print("Hello from celery-and-rabbit!")
 
