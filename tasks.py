@@ -8,7 +8,7 @@ app = Celery("tasks", broker="amqp://guest:guest@localhost:5672//")
 def hello():
     return "Hello, there how are you!"
 
-
+@app.task
 def add(x, y):
     print(f"Executing task: Adding {x} + {y}")
     return x + y
