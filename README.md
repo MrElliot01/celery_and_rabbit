@@ -23,3 +23,6 @@ Running the Celery worker to process the task:
 Running the Celery task:
 
 ```uv run main.py```
+
+
+Tomorrow we will look into Celery Beat and see how that works as that is quite key to learn at the moment
