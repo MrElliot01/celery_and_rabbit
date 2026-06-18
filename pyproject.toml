@@ -4,4 +4,6 @@ version = "0.1.0"
 description = "The role of this mini project is to allow me to better understand how Celery and Rabbit MQ work together. Ideally I would like to be able to create a small cerlery program that can talk to a rabbit MQ container and send messages to it. I would also like to be able to create a small celery program that can receive messages from the rabbit MQ container and process them."
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = ["celery>=5.6.3"]
+dependencies = [
+    "celery>=5.6.3",
+]
