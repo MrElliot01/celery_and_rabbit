@@ -4,7 +4,7 @@ set -e
 
 # --- Configuration ---
 PYTHON_VERSION="3.12"      # Match your Lambda runtime version
-TARGET_ARCH="aarch64"     # Use "aarch64" (ARM) or "x86_64" (Intel)
+TARGET_ARCH="aarch64"     # Use "aarch64" (ARM) or "x86_64" (Intel or AMD)
 OUTPUT_ZIP="lambda_layer.zip"
 
 echo "🚀 Starting automated Lambda Layer build..."
